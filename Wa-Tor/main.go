@@ -6,5 +6,6 @@ func main() {
 	numSharks := 20
 	grid := NewGrid(gridSize)
 	grid.Initialize(numFish, numSharks)
-	grid.Simulate(100)
+	//grid.Simulate(100)
+	RunGUI(grid)
 }
